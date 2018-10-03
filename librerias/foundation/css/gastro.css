@@ -1,0 +1,85 @@
+.blog{
+  background-color: rgba(245, 235, 223, 0.4);
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+body{
+  background-image: url(../img/comedor.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.history{
+  border: 2px;
+  color: #C62808;
+}
+.recetas{
+  border: 2px;
+}
+.fav{
+  display: flex;
+  flex-flow: nowrap;
+}
+.fav img{
+  margin: 0.4rem;
+  width: 100%;
+}
+.pl-fav{
+  margin-top: 0.7rem;
+}
+#his h6{
+  text-align: left;
+  color: #E32503;
+}
+#his-item{
+  border: 2px solid #C74606;
+  color: #E32503;
+  padding: 0.5rem;
+  margin: 0.3rem;
+}
+.c-l{
+  background-color: #FACBC1;
+}
+.c-l p{
+  text-align: justify;
+}
+.c-l h3{
+  text-align: left;
+}
+#form1 label{
+  text-align: left;
+}
+#public{
+  float: right;
+}
+.chef1{
+  margin-top: 5rem;
+  display: flex;
+  flex-flow: nowrap;
+}
+.usu{
+  border: 1px;
+}
+.text{
+  border: 1px;
+}
+.chef{
+  margin-top: 0.6rem;
+  display: flex;
+  flex-flow: nowrap;
+}
+#date{
+  color: #FA5332;
+  margin: 0.5rem;
+  text-align: left;
+}
+@media (340) and (450){
+  body{
+    background-size: 100%;
+  }
+}
+@media (450) and (720){
+  body{
+    background-size: 100%;
+  }
+}

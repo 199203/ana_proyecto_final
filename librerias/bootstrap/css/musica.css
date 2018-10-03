@@ -1,0 +1,81 @@
+header{
+  background-color: #F9C4D7;
+}
+.redes-sociales img{
+  width: 10%;
+  margin-top: 2.5rem;
+}
+.logo-img{
+  width: 45%;
+  margin: 0.9rem;
+}
+.barra{
+  margin-top: 1.2rem;
+  width: 100%;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+.barra a{
+  color: pink;
+  text-align: center;
+}
+.music{
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+body{
+  background-color: black;
+}
+.replay{
+  margin-top: 20px;
+}
+.input{
+  margin-left: 0.4rem;
+  margin-top: 0.8rem;
+}
+.img img{
+  width: 100%;
+}
+.img{
+  margin: 0.2rem;
+  margin-top: 0.9rem;
+}
+.text{
+  color: white;
+  padding: 1.9rem;
+  margin: 0.2rem;
+  height: 100%;
+}
+.text h4{
+  color: pink;
+}
+.u-p{
+  margin: 0.3rem;
+}
+section{
+  margin-top: 1.2rem;
+  background-color: gray;
+}
+.search{
+  margin-top: 0.8rem;
+}
+@media (350) and (470){
+  .musica{
+    width: 95%;
+  }
+  .img{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .barra a{
+    text-align: center;
+  }
+  .input{
+    margin-left: 0rem;
+  }
+  header{
+    margin-top: 0.2rem;
+  }
+}

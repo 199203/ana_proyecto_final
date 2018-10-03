@@ -1,0 +1,88 @@
+section{
+  background-color: rgba(247, 247, 249, 0.5) !important;
+}
+body{
+  background-color: gray;
+  background-attachment: fixed;
+}
+.navegation{
+  background-image: url(../img/montañas.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.redes img{
+  width: 50%;
+  margin-top: 5px;
+}
+.logo{
+  width: 65%;
+  margin-top: 0.4rem;
+}
+.principal img{
+  width: 100%;
+}
+.menu{
+  margin-top: 0.4rem;
+}
+.menu a{
+  margin: 0.2rem;
+}
+.ima{
+  margin-top: 30px;
+  width: 100%;
+}
+.public{
+  display: flex;
+  flex-flow: nowrap;
+}
+.ufc{
+  font-family: 0.5rem;
+}
+.acua{
+  margin-top: 0.8rem;
+  margin-left: 0.5rem;
+  float: left;
+  width: 45%;
+}
+.info{
+  float: right;
+  margin: 0.5rem;
+  font-family: 0.9rem;
+}
+.autor{
+  width: 30%;
+  margin: 0.7rem;
+}
+#perfil{
+  background-color: gray;
+  height: 2px;
+  width: 80%;
+}
+#mi{
+  margin: 0.5rem;
+}
+.submit{
+  margin-bottom: 1.0rem;
+}
+.input{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+@media (350) and (450){
+  .ima{
+    width: 100%;
+  }
+  .logo{
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .input{
+    margin: 0.3rem;
+  }
+}
+@media (450) and (720){
+  .logo{
+    width: 50%;
+  }
+}
